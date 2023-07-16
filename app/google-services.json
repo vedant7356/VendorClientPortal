@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "776242988825",
+    "firebase_url": "https://vendorproject-5fe4a-default-rtdb.firebaseio.com",
+    "project_id": "vendorproject-5fe4a",
+    "storage_bucket": "vendorproject-5fe4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776242988825:android:4146d0e2d0d94456516788",
+        "android_client_info": {
+          "package_name": "com.vedant.vendorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776242988825-eul6r786ui7lfreddvn9pqe3520t4hg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTR0TpPC6EvPPgCnFDrK4wbakw1m-HhLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776242988825-eul6r786ui7lfreddvn9pqe3520t4hg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

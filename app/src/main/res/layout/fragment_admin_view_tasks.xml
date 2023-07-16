@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task Update"
+        android:textSize = "20dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <TableRow android:background="#51B435" android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:text="Task Title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Date" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:text="Time" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:text="Stat" />
+
+    </TableRow>
+    <TableRow android:background="#F0F7F7" android:padding="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/task_tv_one"
+            android:textAlignment="center"
+            android:text="Collect Vegetables" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/task_date_tv"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:text="DD/MM/YY" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:layout_margin="10dp"
+            android:id="@+id/time_tv_task"
+            android:textAlignment="center"
+            android:text="HH:MM:SS" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/task_status_iv"
+            android:src="@drawable/ic_baseline_pending_actions_24"/>
+    </TableRow>
+
+        </TableLayout>
+
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:text="Proof Of Work">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/view_img"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_baseline_add_a_photo_24"
+            android:layout_margin="50dp">
+
+        </ImageView>
+
+    </LinearLayout>
+
+</ScrollView>
